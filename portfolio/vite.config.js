@@ -3,6 +3,5 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  // Uncomment and set your repo name for GitHub Pages:
-  // base: '/your-repo-name/',
+  base: '/portfolio/',   // ← e.g. '/portfolio/' or '/chetan-bakal/'
 })
